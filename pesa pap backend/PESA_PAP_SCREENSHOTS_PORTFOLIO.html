@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PESA PAP SACCO - Complete Application Screenshots Submission</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0B1120;
+      color: #F8FAFC;
+    }
+    
+    .cover-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 40px;
+      box-sizing: border-box;
+      background: linear-gradient(135deg, #0F2942 0%, #0A1C2E 100%);
+      page-break-after: always;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.2);
+      color: #34D399;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 800;
+      margin: 0 0 12px 0;
+      letter-spacing: -0.5px;
+      color: #FFFFFF;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #94A3B8;
+      max-width: 600px;
+      line-height: 1.6;
+      margin: 0 0 40px 0;
+    }
+
+    .meta-box {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 24px 36px;
+      text-align: left;
+      width: 100%;
+      max-width: 480px;
+      box-sizing: border-box;
+    }
+
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 13.5px;
+    }
+    .meta-row:last-child {
+      border-bottom: none;
+    }
+    .meta-label {
+      color: #94A3B8;
+    }
+    .meta-value {
+      color: #FFFFFF;
+      font-weight: 700;
+    }
+
+    .gallery-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 24px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #1E293B;
+    }
+
+    .screenshot-card {
+      background: #1E293B;
+      border: 1px solid #334155;
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 48px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      page-break-inside: avoid;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .card-title-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .num-pill {
+      background: #3B82F6;
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin: 0;
+    }
+
+    .file-name {
+      font-size: 12px;
+      color: #94A3B8;
+      font-family: monospace;
+      background: #0F172A;
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #0B1120;
+      border-radius: 12px;
+      padding: 16px;
+      border: 1px solid #334155;
+    }
+
+    .image-wrapper img {
+      max-width: 100%;
+      max-height: 700px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cover-page">
+    <div class="badge">STU 3102: MOBILE APPLICATION DEVELOPMENT</div>
+    <h1>PESA PAP SACCO</h1>
+    <div class="subtitle">Complete Working Application Screenshots Compilation & System Verification Dossier</div>
+    
+    <div class="meta-box">
+      <div class="meta-row">
+        <span class="meta-label">Project Name:</span>
+        <span class="meta-value">PESA PAP SACCO Mobile Banking</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Framework:</span>
+        <span class="meta-value">React Native 0.86 / Expo SDK 57</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Persistence:</span>
+        <span class="meta-value">AsyncStorage Relational Engine</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Theming:</span>
+        <span class="meta-value">Adaptive Light & Dark Modes</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Verified Modules:</span>
+        <span class="meta-value">Auth, Savings, Loans, Repayments, Admin</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Total Verified Screens:</span>
+        <span class="meta-value">26 Full-Page Captures</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Verification Date:</span>
+        <span class="meta-value">October 19, 2026</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container">
+    <div class="section-title">Verified Application Screen Captures</div>
+
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 01</span>
+            <h2 class="card-title">Login Screen</h2>
+          </div>
+          <span class="file-name">01_login_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/01_login_screen.png" alt="Login Screen" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 02</span>
+            <h2 class="card-title">Registration Screen</h2>
+          </div>
+          <span class="file-name">02_registration_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/02_registration_screen.png" alt="Registration Screen" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 03</span>
+            <h2 class="card-title">Forgot Password Screen</h2>
+          </div>
+          <span class="file-name">03_forgot_password_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/03_forgot_password_screen.png" alt="Forgot Password Screen" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 04</span>
+            <h2 class="card-title">Member Dashboard Light</h2>
+          </div>
+          <span class="file-name">04_member_dashboard_light.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/04_member_dashboard_light.png" alt="Member Dashboard Light" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 05</span>
+            <h2 class="card-title">Member Dashboard Dark</h2>
+          </div>
+          <span class="file-name">05_member_dashboard_dark.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/05_member_dashboard_dark.png" alt="Member Dashboard Dark" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 06</span>
+            <h2 class="card-title">Savings Screen</h2>
+          </div>
+          <span class="file-name">06_savings_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/06_savings_screen.png" alt="Savings Screen" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 07</span>
+            <h2 class="card-title">Savings Deposit Modal</h2>
+          </div>
+          <span class="file-name">07_savings_deposit_modal.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/07_savings_deposit_modal.png" alt="Savings Deposit Modal" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 08</span>
+            <h2 class="card-title">Savings Withdraw Modal</h2>
+          </div>
+          <span class="file-name">08_savings_withdraw_modal.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/08_savings_withdraw_modal.png" alt="Savings Withdraw Modal" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 09</span>
+            <h2 class="card-title">Loans Overview</h2>
+          </div>
+          <span class="file-name">09_loans_overview.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/09_loans_overview.png" alt="Loans Overview" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 10</span>
+            <h2 class="card-title">Loan Application Modal</h2>
+          </div>
+          <span class="file-name">10_loan_application_modal.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/10_loan_application_modal.png" alt="Loan Application Modal" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 11</span>
+            <h2 class="card-title">Loan Repayment Screen</h2>
+          </div>
+          <span class="file-name">11_loan_repayment_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/11_loan_repayment_screen.png" alt="Loan Repayment Screen" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 12</span>
+            <h2 class="card-title">Transactions History</h2>
+          </div>
+          <span class="file-name">12_transactions_history.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/12_transactions_history.png" alt="Transactions History" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 13</span>
+            <h2 class="card-title">Transaction Receipt Modal</h2>
+          </div>
+          <span class="file-name">13_transaction_receipt_modal.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/13_transaction_receipt_modal.png" alt="Transaction Receipt Modal" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 14</span>
+            <h2 class="card-title">Shares Capital Screen</h2>
+          </div>
+          <span class="file-name">14_shares_capital_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/14_shares_capital_screen.png" alt="Shares Capital Screen" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 15</span>
+            <h2 class="card-title">Shares Buy Modal</h2>
+          </div>
+          <span class="file-name">15_shares_buy_modal.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/15_shares_buy_modal.png" alt="Shares Buy Modal" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 16</span>
+            <h2 class="card-title">Notifications Screen</h2>
+          </div>
+          <span class="file-name">16_notifications_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/16_notifications_screen.png" alt="Notifications Screen" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 17</span>
+            <h2 class="card-title">Member Profile Screen</h2>
+          </div>
+          <span class="file-name">17_member_profile_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/17_member_profile_screen.png" alt="Member Profile Screen" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 18</span>
+            <h2 class="card-title">Admin Dashboard</h2>
+          </div>
+          <span class="file-name">18_admin_dashboard.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/18_admin_dashboard.png" alt="Admin Dashboard" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 19</span>
+            <h2 class="card-title">Admin Members Directory</h2>
+          </div>
+          <span class="file-name">19_admin_members_directory.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/19_admin_members_directory.png" alt="Admin Members Directory" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 20</span>
+            <h2 class="card-title">Admin Member Detail Modal</h2>
+          </div>
+          <span class="file-name">20_admin_member_detail_modal.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/20_admin_member_detail_modal.png" alt="Admin Member Detail Modal" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 21</span>
+            <h2 class="card-title">Admin Loans Desk</h2>
+          </div>
+          <span class="file-name">21_admin_loans_desk.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/21_admin_loans_desk.png" alt="Admin Loans Desk" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 22</span>
+            <h2 class="card-title">Admin Loan Review Modal</h2>
+          </div>
+          <span class="file-name">22_admin_loan_review_modal.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/22_admin_loan_review_modal.png" alt="Admin Loan Review Modal" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 23</span>
+            <h2 class="card-title">Admin Audit Ledger</h2>
+          </div>
+          <span class="file-name">23_admin_audit_ledger.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/23_admin_audit_ledger.png" alt="Admin Audit Ledger" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 24</span>
+            <h2 class="card-title">Admin Reports Analytics</h2>
+          </div>
+          <span class="file-name">24_admin_reports_analytics.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/24_admin_reports_analytics.png" alt="Admin Reports Analytics" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 25</span>
+            <h2 class="card-title">Admin Products Management</h2>
+          </div>
+          <span class="file-name">25_admin_products_management.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/25_admin_products_management.png" alt="Admin Products Management" />
+        </div>
+      </div>
+    
+      <div class="screenshot-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="num-pill">SCREEN 26</span>
+            <h2 class="card-title">Admin Announcements Screen</h2>
+          </div>
+          <span class="file-name">26_admin_announcements_screen.png</span>
+        </div>
+        <div class="image-wrapper">
+          <img src="screenshots/26_admin_announcements_screen.png" alt="Admin Announcements Screen" />
+        </div>
+      </div>
+    
+
+  </div>
+
+</body>
+</html>
